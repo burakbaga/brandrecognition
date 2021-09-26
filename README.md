@@ -1,5 +1,7 @@
-## Object Detection Tutorial
+# Object Detection Api Kullanarak Logo Tanıma
+![sonuc1](images/d1.png) 
 
+## Enviroment Oluşturulması
 Object detection api kuruluma başlamadan https://www.anaconda.com/products/individual adresinden 
 anaconda indirip kurulumunu yapalım. 
 Daha sonra komut istemini açalım. Burada "conda create -n tod python==3.6.5" yazalım. 
@@ -127,7 +129,7 @@ python generate_tfrecord.py -x [PATH_TO_IMAGES_FOLDER]/test -l [PATH_TO_ANNOTATI
 
 ![record ](images/record.png) 
 
-# Pre-Trained Model İndirilmesi 
+## Pre-Trained Model İndirilmesi 
 
 Aşağıdaki linkten önceden eğitilmiş modellerden bizim için en uygun olanı seçiyoruz. Burada precision ve speed değerlerine bakarak bize uygun olacak "SSD ResNet50 V1 FPN 640x640" modelini indirebiliriz. İndirdiğimiz modeli aşağıdaki klasör yoluna çıkartalım. 
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md 
