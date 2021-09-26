@@ -1,0 +1,7 @@
+copy C:\Users\bagat\Desktop\ObjectDetectionAPI\Tensorflow\models\research\object_detection\packages\tf2 .
+
+python generate_tfrecord.py -x C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\images/train -l C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\annotations/\label_map.pbtxt -o C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\annotations/train.record  
+
+python generate_tfrecord.py -x C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\images/test -l C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\annotations/\label_map.pbtxt -o C:\\Users\\bagat\\Desktop\\ObjectDetectionAPI\\Tensorflow\\workspace\\training_demo\\annotations/test.record  
+
+python -m ipykernel install --user --name=tod

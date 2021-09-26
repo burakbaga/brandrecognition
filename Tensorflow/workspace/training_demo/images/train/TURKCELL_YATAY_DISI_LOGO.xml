@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>TURKCELL_YATAY_DISI_LOGO.jpg</filename>
+	<path>C:\Users\bagat\Desktop\ObjectDetectionAPI\Tensorflow\workspace\training_demo\images\train\TURKCELL_YATAY_DISI_LOGO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>841</width>
+		<height>595</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>turkcell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>219</ymin>
+			<xmax>234</xmax>
+			<ymax>379</ymax>
+		</bndbox>
+	</object>
+</annotation>

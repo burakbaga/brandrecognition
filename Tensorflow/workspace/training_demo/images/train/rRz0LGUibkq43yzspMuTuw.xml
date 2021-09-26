@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>rRz0LGUibkq43yzspMuTuw.jpg</filename>
+	<path>C:\Users\bagat\Desktop\ObjectDetectionAPI\Tensorflow\workspace\training_demo\images\train\rRz0LGUibkq43yzspMuTuw.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>686</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>turkcell</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>436</xmin>
+			<ymin>219</ymin>
+			<xmax>729</xmax>
+			<ymax>505</ymax>
+		</bndbox>
+	</object>
+</annotation>
