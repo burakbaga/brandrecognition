@@ -26,7 +26,7 @@ GPU kullanarak eğitimleri yapmak için CUDA ve CuDNN kurulumlarını yapmamız 
 İnternetti bir çok videodan ve yazıdan kurulumların nasıl yapılacağına bakabilirsiniz. 
 Tensorflow versiyonunuza uygun CUDA ve CuDNN aşağıdaki linklerden indirip kurulumları yapalım.
 Tensorflow 2.6.0 için CUDA Toolkit 11.2 ve CuDNN 8.1 kurulumlarını yapmamız gerekiyor.  
-![gpu test](images/gpu.png)
+![gpu test](images/gpu.png)  
 CUDA : https://developer.nvidia.com/cuda-11.2.2-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork  
 CuDNN : https://developer.nvidia.com/rdp/cudnn-download
 
